@@ -45,7 +45,12 @@ class Contact
 	       */
 	       private $email;
 
+           
 
+           public function getId()
+           {
+           	   return $this->id;
+           }
            
            /**
             * Affecter un nom de contact
